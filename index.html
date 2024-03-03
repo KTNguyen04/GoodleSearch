@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="vi">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Google</title>
-    <link href="style.css" rel="stylesheet" />
-  </head>
 
-  <body>
-    <img class="logo" src=".\images\google.png" alt="google logo" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Google</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
 
-    <div class="search">
-      <form action="https://www.google.com/search" method="get">
+<body>
+  <img class="logo" src=".\images\google.png" alt="google logo" />
+
+  <div class="search_container">
+    <form action="https://www.google.com/search" method="get">
+
+
+      <div class="text_input">
         <input type="text" name="q" />
-        <div class="search_button">
-          <input type="submit" value="Google Search" />
-        </div>
-      </form>
-    </div>
-    <div>
-      <a class="migrate" href="image_search.html" target="_self">Images</a>
-    </div>
-  </body>
+      </div>
+      <div class="search_button">
+
+        <div><input type="submit" value="Google Search" /></div>
+        <div><input type="submit" name="btnI" value="I'm Feeling Lucky" /></div>
+
+      </div>
+    </form>
+
+  </div>
+
+  <div>
+    <a class="migrate" href="image_search.html" target="_self">Images</a>
+  </div>
+</body>
+
 </html>

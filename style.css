@@ -17,4 +17,57 @@ body {
   height: 92px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5%;
+}
+.search_container {
+  margin-top: 26.5px;
+}
+
+.text_input input {
+  display: block;
+  width: 535px;
+  height: 44.5px;
+  margin: auto;
+  border-radius: 30px;
+  background-color: transparent;
+
+  border: 1px solid rgb(95, 99, 104);
+  color: white;
+
+  background-image: url("./images/icon.png");
+  background-size: 14.5px 14.5px;
+  background-position: 16.5px 15.5px;
+  background-repeat: no-repeat;
+  padding-left: 45px;
+
+  font-size: 16px;
+}
+.text_input input:hover,
+.text_input input:focus {
+  background-color: rgb(48, 49, 52);
+  border-color: rgb(48, 49, 52);
+  outline-style: none;
+}
+.search_button {
+  text-align: center;
+  margin-top: 28px;
+}
+.search_button div {
+  display: inline;
+  margin: 0px 4px;
+}
+.search_button input {
+  background-color: rgb(48, 49, 52);
+  width: fit-content;
+  height: fit-content;
+  padding: 9px 16px;
+  border: 1px solid transparent;
+  color: white;
+  margin: auto;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.search_button input:hover {
+  border: 1px solid rgb(95, 99, 104);
 }
